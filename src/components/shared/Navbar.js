@@ -10,9 +10,9 @@ class Navbar extends Component {
   render() {
     const { activeItem } = this.state
     return(
-  <Segment inverted>
+  <div center aligned container>
 
-    <Menu inverted pointing secondary>
+    <Menu pointing secondary>
 
       <Link to='/'>
         <Menu.Item
@@ -45,7 +45,7 @@ class Navbar extends Component {
           onClick={this.handleItemClick}/>
       </Link>
     </Menu>
-  </Segment>    
+  </div>    
     )
   }
 }
