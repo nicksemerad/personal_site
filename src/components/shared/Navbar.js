@@ -45,7 +45,8 @@ class Navbar extends Component {
           onClick={this.handleItemClick}/>
       </Link>
       <a href='https://github.com/nicksemerad' 
-        target='_blank'>
+        target='_blank'
+        rel="noopener noreferrer">
         <Menu.Item
         name='Github'/>
       </a>
