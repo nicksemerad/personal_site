@@ -44,6 +44,11 @@ class Navbar extends Component {
           active={activeItem === 'contact'}
           onClick={this.handleItemClick}/>
       </Link>
+      <a href='https://github.com/nicksemerad' 
+        target='_blank'>
+        <Menu.Item
+        name='Github'/>
+      </a>
     </Menu>
   </div>    
     )

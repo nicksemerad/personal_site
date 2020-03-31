@@ -11,7 +11,7 @@ import NoMatch from './components/shared/NoMatch';
 
 const App = () => (
     <>
-      <Navbar/>
+      <Navbar />
       <Container>
         <Switch>
           <Route exact path='/' component={Home} />
