@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container } from 'semantic-ui-react';
+import { Segment } from 'semantic-ui-react';
 import { Route, Switch } from 'react-router-dom';
 import Home from './components/shared/Home';
 import Portfolio from './components/shared/Portfolio';
@@ -12,7 +12,7 @@ import NoMatch from './components/shared/NoMatch';
 const App = () => (
     <>
       <Navbar />
-      <Container>
+      <Segment textAlign='center'>
         <Switch>
           <Route exact path='/' component={Home} />
           <Route exact path='/portfolio' component={Portfolio} />
@@ -21,7 +21,7 @@ const App = () => (
           <Route exact path='/contact' component={Contact} />
           <Route component={NoMatch}/>
         </Switch>
-      </Container>
+      </Segment>
     </>
 )
 

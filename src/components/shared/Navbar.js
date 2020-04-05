@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Menu, Segment } from 'semantic-ui-react';
+import { Menu } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
 
 class Navbar extends Component {
@@ -10,9 +10,7 @@ class Navbar extends Component {
   render() {
     const { activeItem } = this.state
     return(
-  <div center aligned container>
-
-    <Menu pointing secondary>
+    <Menu pointing secondary >
 
       <Link to='/'>
         <Menu.Item
@@ -50,14 +48,9 @@ class Navbar extends Component {
         <Menu.Item
         name='Github'/>
       </a>
-    </Menu>
-  </div>    
+    </Menu>  
     )
   }
 }
-
-  
-  
-
 
 export default Navbar;
