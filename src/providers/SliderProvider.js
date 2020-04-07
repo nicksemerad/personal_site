@@ -1,56 +1,48 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import { Container } from 'semantic-ui-react';
+import Color from './ColorProvider';
 
 const Styles = styled.div`
   display: flex;
   align-items: center;
-  color: #888
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-
-  .value {
-    flex: 1;
-    font-size: 2rem;
-  }
   
   .slider {
-    flex: 1;
-    width: 100%;
-    height: 10px;
-    border-radius: 5px;
-    background: #efefef;
-    outline: none;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-
+    flex: 10;
+    width: 300px;
+    -webkit-appearence: none;
+    margin-left: 2rem;
   }
+  
 `;
 
 class Slider extends Component {
-  state = { value: 50 } 
+  state = { sliderValue: 50 } 
 
   handleChange = (e) => {
-    this.setState({ value: e.target.value})
+    this.setState({ sliderValue: e.target.value})
   }
-
-    render() {
+  
+  render() {
+      const { sliderValue } = this.state
       return(
-        <Container>
-
+        <>
         <Styles>
           <input type='range' 
           min={0} 
-          max={255} 
-          value={this.state.value} 
+          max={826} 
+          value={sliderValue} 
           className='slider'
+          cursor='pointer'
           onChange={this.handleChange}
           />
-        <div className='value'>{this.state.value}</div>
+          <div className='value'>{sliderValue}</div>
         </Styles>
-          </Container>
+        <Color />
+        </>
       )
     }
 }
+
+
 
 export default Slider;

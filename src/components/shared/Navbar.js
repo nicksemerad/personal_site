@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Menu } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
+import Slider from '../../providers/SliderProvider';
 
 class Navbar extends Component {
   state = { activeItem: 'home' }
@@ -10,6 +11,7 @@ class Navbar extends Component {
   render() {
     const { activeItem } = this.state
     return(
+      <>
     <Menu pointing secondary >
 
       <Link to='/'>
@@ -48,7 +50,9 @@ class Navbar extends Component {
         <Menu.Item
         name='Github'/>
       </a>
-    </Menu>  
+    <Slider />  
+    </Menu>
+    </>
     )
   }
 }
