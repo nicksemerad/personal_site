@@ -1,18 +1,16 @@
 import React from 'react';
-import { Segment } from 'semantic-ui-react';
 import { Route, Switch } from 'react-router-dom';
-import Home from './components/shared/Home';
-import Portfolio from './components/shared/Portfolio';
-import Resume from './components/shared/Resume';
-import Art from './components/shared/Art';
-import Contact from './components/shared/Contact';
+import Home from './components/Home';
+import Portfolio from './components/Portfolio';
+import Resume from './components/Resume';
+import Art from './components/Art';
+import Contact from './components/Contact';
 import Navbar from './components/shared/Navbar';
 import NoMatch from './components/shared/NoMatch';
 
 const App = () => (
     <>
       <Navbar />
-      <Segment textAlign='center'>
         <Switch>
           <Route exact path='/' component={Home} />
           <Route exact path='/portfolio' component={Portfolio} />
@@ -21,8 +19,7 @@ const App = () => (
           <Route exact path='/contact' component={Contact} />
           <Route component={NoMatch}/>
         </Switch>
-      </Segment>
-    </>
+    </>    
 )
 
 export default App;
