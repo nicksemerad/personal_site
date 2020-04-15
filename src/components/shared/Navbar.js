@@ -12,7 +12,7 @@ class Navbar extends Component {
     const { activeItem } = this.state
     return(
       <div style={{
-        width: '470px',
+        width: '450px',
         margin: 'auto',
         textAlign: 'center',
         padding: '10px',
@@ -30,10 +30,10 @@ class Navbar extends Component {
               active={activeItem === 'portfolio'}
               onClick={this.handleItemClick}/>
           </Link>
-          <Link to='/resume'>
+          <Link to='/skills'>
             <Menu.Item 
-              name='resume'
-              active={activeItem === 'resume'}
+              name='skills'
+              active={activeItem === 'skills'}
               onClick={this.handleItemClick}/>
           </Link>
           <Link to='/art'>

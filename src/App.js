@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import Home from './components/Home';
 import Portfolio from './components/Portfolio';
-import Resume from './components/Resume';
+import Skills from './components/Skills';
 import Art from './components/Art';
 import Contact from './components/Contact';
 import Navbar from './components/shared/Navbar';
@@ -14,7 +14,7 @@ const App = () => (
         <Switch>
           <Route exact path='/' component={Home} />
           <Route exact path='/portfolio' component={Portfolio} />
-          <Route exact path='/resume' component={Resume} />
+          <Route exact path='/skills' component={Skills} />
           <Route exact path='/art' component={Art} />
           <Route exact path='/contact' component={Contact} />
           <Route component={NoMatch}/>

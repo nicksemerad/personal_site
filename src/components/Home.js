@@ -1,14 +1,14 @@
 import React from 'react';
+import icon from './nicksem.jpg'
 
 const Home = () => (
   <div style={{
-    width: '470px',
+    width: '670px',
     margin: 'auto',
-    textAlign: 'center',
-    padding: '10px',
+    textAlign: 'center'
   }}>
-    <h1>Home</h1>
-    <p>Picture of myself, and what im doing as of current</p>
+    <img src={icon} alt='Nick Semerad'/>
+    <p>I'm Nick Semerad, and this site is a work in progress</p>
   </div>
 )
 

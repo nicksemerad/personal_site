@@ -1,15 +1,15 @@
 import React from 'react';
 
-const Resume = () => (
+const Skills = () => (
   <div style={{
     width: '470px',
     margin: 'auto',
     textAlign: 'center',
     padding: '10px',
   }}>
-  <h1>Resume</h1>
-  <p>Put resume here, instead of a link to resume</p>
+  <h1>Skills</h1>
+  <p>Put skills here, instead of a link to skills</p>
   </div>
 )
 
-export default Resume;
+export default Skills;
