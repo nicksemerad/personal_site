@@ -15,7 +15,7 @@ class Navbar extends Component {
         width: '450px',
         margin: 'auto',
         textAlign: 'center',
-        padding: '10px',
+        padding: '10px'
       }}>
         <Menu pointing secondary>
           <Link to='/'>

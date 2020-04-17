@@ -2,9 +2,10 @@ import React from 'react';
 
 const Art = () => (
   <div style={{
-    width: '470px',
+    width: '670px',
     margin: 'auto',
     textAlign: 'center',
+    height: '1000px',
     padding: '10px',
   }}>
     <h1>Art</h1>

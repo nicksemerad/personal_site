@@ -7,9 +7,13 @@ import Art from './components/Art';
 import Contact from './components/Contact';
 import Navbar from './components/shared/Navbar';
 import NoMatch from './components/shared/NoMatch';
+import marble from './components/images/marble.jpg';
 
 const App = () => (
     <>
+      <div style={{  
+        backgroundImage: `url(${marble})`
+      }}>
       <Navbar />
         <Switch>
           <Route exact path='/' component={Home} />
@@ -19,6 +23,7 @@ const App = () => (
           <Route exact path='/contact' component={Contact} />
           <Route component={NoMatch}/>
         </Switch>
+      </div>
     </>    
 )
 
