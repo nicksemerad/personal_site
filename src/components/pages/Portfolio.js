@@ -23,6 +23,7 @@ const Portfolio = () => (
       <p>Color Board is a color scheme organizer/ social media</p>
       <Button color='black'>View Site</Button>
     </div>
+    <h1> Many more in the works!</h1>
   </div>
   </>
 )

@@ -1,5 +1,7 @@
 import React from 'react';
-import ppic from '../images/ppic.jpg'
+import ppic from '../images/ppic.jpg';
+import { Button } from 'semantic-ui-react';
+import { Link } from 'react-router-dom';
 
 const Home = () => (
   <div style={{
@@ -22,8 +24,27 @@ const Home = () => (
     src={ppic} 
     alt='Profile Pic'
     border='5pxsolidblack'/>
-    <h3>I use this site to showcase my work</h3>
+    <h3>I've decided to keep this site simple,
+      and use it to showcase my work</h3>
     <h1>Enjoy :)</h1>
+    <div>
+      <Button color='black'>
+        <Link to="/portfolio" style={{color:'#FFF'}}>
+        Portfolio</Link>
+      </Button>
+      <Button color='black'>
+        <Link to="/skills" style={{color:'#FFF'}}>
+        Skills</Link>
+      </Button>
+      <Button color='black'>
+        <Link to="/art" style={{color:'#FFF'}}>
+        Art</Link>
+      </Button>
+      <Button color='black'>
+        <Link to="/contact" style={{color:'#FFF'}}>
+        Contact</Link>
+      </Button>
+    </div>
   </div>
 )
 
