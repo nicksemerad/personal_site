@@ -9,7 +9,7 @@ const Art = () => (
     padding: '10px',
   }}>
     <h1>Art</h1>
-    <p>Add photos of art, with brief synopsis and background for each</p>
+    <h1>This page is under construction!</h1>
   </div>
 )
 
