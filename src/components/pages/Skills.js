@@ -1,10 +1,10 @@
 import React from 'react';
-import react from './images/skills/react.png';
-import ruby from './images/skills/ruby.png';
-import postgres from './images/skills/postgres.png';
-import htmlcss from './images/skills/html_css.png';
-import ps from './images/skills/ps.png';
-import ai from './images/skills/ai.png';
+import react from '../images/skills/react.png';
+import ruby from '../images/skills/ruby.png';
+import postgres from '../images/skills/postgres.png';
+import htmlcss from '../images/skills/html_css.png';
+import ps from '../images/skills/ps.png';
+import ai from '../images/skills/ai.png';
 
 const Skills = () => (
   <div style={{
@@ -14,7 +14,7 @@ const Skills = () => (
     height: '1000px',
     padding: '10px',
   }}>
-  <h1>Skills</h1>
+  <h1>Technical Skills</h1>
     <div style={{
       // backgroundColor: 'rgba(0,0,0,0.05)',
       width: '670px',
@@ -23,27 +23,27 @@ const Skills = () => (
     }}>
       <div>
         <img  style={style.reactLogo} src={react} alt='React JS'/>
-        <h2 style={style.reactText}>React JS</h2>
+        <h2 style={style.reactText}>React JS - front end</h2>
       </div>
       <div>
         <img  style={style.rubyLogo} src={ruby} alt='Ruby'/>
-        <h2 style={style.rubyText}>Ruby/ Rails</h2>
+        <h2 style={style.rubyText}>Ruby/ Rails - back end</h2>
       </div>
       <div>
         <img  style={style.postgresLogo} src={postgres} alt='PostgreSQL'/>
-        <h2 style={style.postgresText}>PostgreSQL</h2>
+        <h2 style={style.postgresText}>PostgreSQL - database</h2>
       </div>
       <div>
         <img  style={style.htmlcssLogo} src={htmlcss} alt='html/css'/>
-        <h2 style={style.htmlcssText}>CSS/ HTML</h2>
+        <h2 style={style.htmlcssText}>CSS/ HTML - foundations</h2>
       </div>
       <div>
         <img  style={style.psLogo} src={ps} alt='photoshop'/>
-        <h2 style={style.psText}>Photoshop</h2>
+        <h2 style={style.psText}>Photoshop - image editor</h2>
       </div>
       <div>
         <img  style={style.aiLogo} src={ai} alt='illustrator'/>
-        <h2 style={style.aiText}>Illustrator</h2>
+        <h2 style={style.aiText}>Illustrator - sprite creator</h2>
       </div>
     </div>
   

@@ -1,19 +1,17 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
-import Home from './components/Home';
-import Portfolio from './components/Portfolio';
-import Skills from './components/Skills';
-import Art from './components/Art';
-import Contact from './components/Contact';
+import Home from './components/pages/Home';
+import Portfolio from './components/pages/Portfolio';
+import Skills from './components/pages/Skills';
+import Art from './components/pages/Art';
+import Contact from './components/pages/Contact';
 import Navbar from './components/shared/Navbar';
 import NoMatch from './components/shared/NoMatch';
 import marble from './components/images/marble.jpg';
 
 const App = () => (
     <>
-      <div style={{  
-        backgroundImage: `url(${marble})`
-      }}>
+      <div style={{ backgroundColor: '#F9FDFF'}}>
       <Navbar />
         <Switch>
           <Route exact path='/' component={Home} />
