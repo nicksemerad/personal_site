@@ -8,11 +8,12 @@ import ai from '../images/skills/ai.png';
 
 const Skills = () => (
   <div style={{
-    width: '670px',
+    width: '100%',
     margin: 'auto',
-    textAlign: 'center',
+    textAlign: 'left',
     height: '1000px',
     padding: '10px',
+    backgroundColor: '#fce8ea',
   }}>
   <h1>Technical Skills</h1>
     <div style={{

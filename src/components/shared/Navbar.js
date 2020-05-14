@@ -39,11 +39,11 @@ class Navbar extends Component {
               active={activeItem === 'skills'}
               onClick={this.handleItemClick}/>
           </Link>
-          <Link to='/art'>
+          <Link to='/resume'>
             <Menu.Item
               style={{ color: 'white'}}
-              name='art'
-              active={activeItem === 'art'}
+              name='resume'
+              active={activeItem === 'resume'}
               onClick={this.handleItemClick}/>
           </Link>
           <Link to='/contact'>

@@ -7,11 +7,12 @@ import twitter from '../images/contact/twitter.png';
 
 const Contact = () => (
   <div style={{
-    width: '670px',
+    width: '100%',
     margin: 'auto',
     textAlign: 'center',
     height: '1000px',
     padding: '10px',
+    backgroundColor: '#fce8ea',
   }}>
     <h1> Contact Me </h1>
     <div>

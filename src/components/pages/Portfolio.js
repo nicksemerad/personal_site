@@ -12,7 +12,7 @@ const Portfolio = () => (
       textAlign: 'left',
       padding: '10px',
       height: '1000px',
-      backgroundColor: 'white',
+      backgroundColor: '#fce8ea',
       marginTop: '0px'
     }}>
       <img src={tri} style={Style.tri}/>

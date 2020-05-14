@@ -24,7 +24,7 @@ const Home = () => (
     
     <h1 style={{color: '#6D0043'}}>Nick Semerad</h1>
     <h2 style={{color: '#515051', marginTop: '100px'}}>About me</h2>
-    <h4 style={{color: '#6D0043', marginRight: '50%'}}>Hi I'm Nick! I'm a web developer and artist,
+    <h4 style={{color: '#6D0043', maxWidth: '500px'}}>Hi I'm Nick! I'm a web developer and artist,
        but I like to think that they can be the same thing.
        I am twenty years old, currently located in Salt Lake City,
        Utah. I love to create, and I'm setting my summer goal to 
