@@ -8,7 +8,7 @@ const Art = () => (
     height: '1000px',
     padding: '10px',
   }}>
-    <h1>Art</h1>
+    <h1 color='white'>Art</h1>
     <h1>This page is under construction!</h1>
   </div>
 )

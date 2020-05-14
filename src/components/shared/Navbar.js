@@ -12,38 +12,43 @@ class Navbar extends Component {
     const { activeItem } = this.state
     return(
       <div style={{
-        width: '450px',
+        width: '100%',
         margin: 'auto',
         textAlign: 'center',
         padding: '10px'
       }}>
-        <Menu pointing secondary>
+        <Menu ui pointing secondary>
           <Link to='/'>
             <Menu.Item
+              style={{ color: 'white'}}
               name='home'
               active={activeItem === 'home'}
               onClick={this.handleItemClick}/>
           </Link>
           <Link to='/portfolio'>
             <Menu.Item
+              style={{ color: 'white'}}
               name='portfolio'
               active={activeItem === 'portfolio'}
               onClick={this.handleItemClick}/>
           </Link>
           <Link to='/skills'>
             <Menu.Item 
+              style={{ color: 'white'}}
               name='skills'
               active={activeItem === 'skills'}
               onClick={this.handleItemClick}/>
           </Link>
           <Link to='/art'>
             <Menu.Item
+              style={{ color: 'white'}}
               name='art'
               active={activeItem === 'art'}
               onClick={this.handleItemClick}/>
           </Link>
           <Link to='/contact'>
             <Menu.Item
+              style={{ color: 'white'}}
               name='contact'
               active={activeItem === 'contact'}
               onClick={this.handleItemClick}/>
@@ -52,7 +57,8 @@ class Navbar extends Component {
             target='_blank'
             rel="noopener noreferrer">
             <Menu.Item
-            name='Github'/>
+              style={{ color: 'white'}}
+              name='Github'/>
           </a>
         </Menu>
       </div>

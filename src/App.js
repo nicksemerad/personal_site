@@ -11,7 +11,7 @@ import marble from './components/images/marble.jpg';
 
 const App = () => (
     <>
-      <div style={{ backgroundColor: '#F9FDFF'}}>
+      <div style={{ backgroundColor: '#6D0043'}}>
       <Navbar />
         <Switch>
           <Route exact path='/' component={Home} />
