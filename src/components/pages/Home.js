@@ -2,13 +2,11 @@ import React from 'react';
 import ppic from '../images/ppic.jpg';
 import { Button } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
-import tri from '../images/tri.png';
-import logo from '../images/logoC.png'
+
 
 
 const Home = () => (
   <div style={{ width: '100%'}}>
-    {/* <img src={logo} style={Style.logo}/> */}
 
   <div style={{
     width: '100%',
@@ -20,11 +18,10 @@ const Home = () => (
     backgroundColor: '#e8ebff',
    
   }}>
-    {/* <img src={tri} style={Style.tri}/> */}
     <div style={{textAlign: 'center'}}>
 
     <h1 style={{color: '#221C35'}}>Nick Semerad</h1>
-    <h2 style={{color: '#515051', marginTop: '100px'}}>About me</h2>
+    <h2 style={{color: '#2B7A78', marginTop: '100px'}}>About me</h2>
     <img 
     width='400px'
     src={ppic} 
@@ -35,7 +32,7 @@ const Home = () => (
        Utah. I love to create, and I'm setting my summer goal to 
        learn and create my first neural net!
        </h3>
-    <h3 style={{color: '#221C35'}}>I've decided to keep this site to showcase my work</h3>
+    <h3 style={{color: '#2B7A78'}}>I've decided to keep this site to showcase my work</h3>
     <h1 style={{color: '#221C35'}}>Enjoy :)</h1>
     <div style={{marginTop: '50px'}}>
       <Button color='black'>

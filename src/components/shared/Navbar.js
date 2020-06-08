@@ -13,9 +13,7 @@ class Navbar extends Component {
     return(
       <div style={{
         width: '100%',
-        margin: 'auto',
-        textAlign: 'center',
-        padding: '10px'
+        padding: '10px',
       }}>
         <Menu ui pointing secondary>
           <Link to='/'>
@@ -25,41 +23,43 @@ class Navbar extends Component {
               active={activeItem === 'home'}
               onClick={this.handleItemClick}/>
           </Link>
-          <Link to='/portfolio'>
-            <Menu.Item
-              style={{ color: '#221C35'}}
-              name='portfolio'
-              active={activeItem === 'portfolio'}
-              onClick={this.handleItemClick}/>
-          </Link>
-          <Link to='/skills'>
-            <Menu.Item 
-              style={{ color: '#221C35'}}
-              name='skills'
-              active={activeItem === 'skills'}
-              onClick={this.handleItemClick}/>
-          </Link>
-          <Link to='/resume'>
-            <Menu.Item
-              style={{ color: '#221C35'}}
-              name='resume'
-              active={activeItem === 'resume'}
-              onClick={this.handleItemClick}/>
-          </Link>
-          <Link to='/contact'>
-            <Menu.Item
-              style={{ color: '#221C35'}}
-              name='contact'
-              active={activeItem === 'contact'}
-              onClick={this.handleItemClick}/>
-          </Link>
-          <a href='https://github.com/nicksemerad' 
-            target='_blank'
-            rel="noopener noreferrer">
-            <Menu.Item
-              style={{ color: '#221C35'}}
-              name='Github'/>
-          </a>
+          <Menu.Menu position='right'>
+            <Link to='/portfolio'>
+              <Menu.Item
+                style={{ color: '#221C35'}}
+                name='portfolio'
+                active={activeItem === 'portfolio'}
+                onClick={this.handleItemClick}/>
+            </Link>
+            <Link to='/skills'>
+              <Menu.Item 
+                style={{ color: '#221C35'}}
+                name='skills'
+                active={activeItem === 'skills'}
+                onClick={this.handleItemClick}/>
+            </Link>
+            <Link to='/resume'>
+              <Menu.Item
+                style={{ color: '#221C35'}}
+                name='resume'
+                active={activeItem === 'resume'}
+                onClick={this.handleItemClick}/>
+            </Link>
+            <Link to='/contact'>
+              <Menu.Item
+                style={{ color: '#221C35'}}
+                name='contact'
+                active={activeItem === 'contact'}
+                onClick={this.handleItemClick}/>
+            </Link>
+            <a href='https://github.com/nicksemerad' 
+              target='_blank'
+              rel="noopener noreferrer">
+              <Menu.Item
+                style={{ color: '#221C35'}}
+                name='Github'/>
+            </a>
+          </Menu.Menu>
         </Menu>
       </div>
     )

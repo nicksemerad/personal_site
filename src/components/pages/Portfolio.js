@@ -14,7 +14,7 @@ const Portfolio = () => (
     }}>
     <h1 style={{ color: '#221C35'}}>Portfolio</h1>
       <div style={{ marginTop: '50px'}}>
-        <h2 style={{ color: '#221C35'}}>Color Board is a color scheme organizer/ social media</h2>
+        <h2 style={{ color: '#2B7A78'}}>Color Board is a color scheme organizer/ social media</h2>
         <iframe width="448" 
             height="252" 
             src="https://www.youtube.com/embed/ehe3yUOVh4Y" 

@@ -40,7 +40,7 @@ const style = {
   },
   gitText: {
    transform: 'translate(0%, -260%)',
-   color: '#221C35'
+   color: '#2B7A78'
   },
   gmailLogo: {
    height: '100px',
@@ -48,7 +48,7 @@ const style = {
   },
   gmailText: {
    transform: 'translate(0%, -400%)',
-   color: '#221C35'
+   color: '#2B7A78'
   },
   linkedLogo: {
    height: '100px',
@@ -56,7 +56,7 @@ const style = {
   },
   linkedText: {
    transform: 'translate(0%, -570%)',
-   color: '#221C35'
+   color: '#2B7A78'
   },
   twitterLogo: {
    height: '100px',
@@ -64,7 +64,7 @@ const style = {
   },
   twitterText: {
    transform: 'translate(0%, -730%)',
-   color: '#221C35'
+   color: '#2B7A78'
   },
 }
 export default Contact;
