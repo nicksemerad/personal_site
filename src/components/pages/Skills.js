@@ -15,7 +15,7 @@ const Skills = () => (
     padding: '10px',
     backgroundColor: '#e8ebff',
   }}>
-  <h1>Technical Skills</h1>
+  <h1 style={{ color: '#221C35', marginTop: '30px'}}>Technical Skills</h1>
     <div style={{
       // backgroundColor: 'rgba(0,0,0,0.05)',
       width: '670px',
@@ -55,51 +55,51 @@ const Skills = () => (
 const style = {
  reactLogo: {
   height: '100px',
-  transform: 'translate(-260%, 10%)'
+  transform: 'translate(0%, 10%)'
  },
  reactText: {
-  transform: 'translate(-38.75%, -90%)',
-  color: 'dark gray'
+  transform: 'translate(0%, -90%)',
+  color: '#221C35'
  },
  rubyLogo: {
   height: '75px',
-  transform: 'translate(-350%, 10%)'
+  transform: 'translate(0%, 10%)'
  },
  rubyText: {
-  transform: 'translate(-39%, -50%)',
-  color: 'dark gray'
+  transform: 'translate(0%, -50%)',
+  color: '#221C35'
  },
  postgresLogo: {
   height: '90px',
-  transform: 'translate(-305%, 20%)'
+  transform: 'translate(0%, 20%)'
  },
  postgresText: {
-  transform: 'translate(-39%, -50%)',
-  color: 'dark gray'
+  transform: 'translate(0%, -50%)',
+  color: '#221C35'
  },
  htmlcssLogo: {
   height: '80px',
-  transform: 'translate(200%, -525%)'
+  transform: 'translate(290%, -525%)'
  },
  htmlcssText: {
-  transform: 'translate(37.5%, -1490%)',
-  color: 'dark gray'
+  transform: 'translate(53%, -1490%)',
+  color: '#221C35'
  },
  psLogo: {
   height: '75px',
-  transform: 'translate(320%, -555%)'
+  transform: 'translate(465%, -555%)'
  },
  psText: {
-  transform: 'translate(37%, -1450%)',
-  color: 'dark gray'
+  transform: 'translate(55%, -1450%)',
+  color: '#221C35'
  },
  aiLogo: {
   height: '75px',
-  transform: 'translate(320%, -535%)'
+  transform: 'translate(460%, -535%)'
  },
  aiText: {
-  transform: 'translate(37%, -1390%)',
-  color: 'dark gray'
+  transform: 'translate(56%, -1390%)',
+  color: '#221C35'
  },
 
 

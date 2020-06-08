@@ -13,8 +13,9 @@ const Contact = () => (
     height: '1000px',
     padding: '10px',
     backgroundColor: '#e8ebff',
+
   }}>
-    <h1> Contact Me </h1>
+    <h1 style={{marginTop: '30px'}}> Contact Me </h1>
     <div>
       <img style={style.gitLogo} src={github} alt='github'/>
       <h2 style={style.gitText}> /nicksemerad </h2>
@@ -41,7 +42,7 @@ const style = {
   },
   gitText: {
    transform: 'translate(0%, -260%)',
-   color: 'dark gray'
+   color: '#221C35'
   },
   gmailLogo: {
    height: '100px',
@@ -49,7 +50,7 @@ const style = {
   },
   gmailText: {
    transform: 'translate(0%, -400%)',
-   color: 'dark gray'
+   color: '#221C35'
   },
   linkedLogo: {
    height: '100px',
@@ -57,7 +58,7 @@ const style = {
   },
   linkedText: {
    transform: 'translate(0%, -570%)',
-   color: 'dark gray'
+   color: '#221C35'
   },
   twitterLogo: {
    height: '100px',
@@ -65,7 +66,7 @@ const style = {
   },
   twitterText: {
    transform: 'translate(0%, -730%)',
-   color: 'dark gray'
+   color: '#221C35'
   },
 }
 export default Contact;

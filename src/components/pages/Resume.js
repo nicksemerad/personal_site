@@ -10,7 +10,7 @@ const Resume = () => (
     padding: '10px',
     backgroundColor: '#e8ebff',
   }}>
-      <div style={{ color: '#221C35'}}>
+      <div style={{ color: '#221C35', marginTop: '30px'}}>
         <h1>Resume</h1>
         <h3>Nicholas Semerad</h3>
         <h3>nicksemerad@gmail.com</h3>

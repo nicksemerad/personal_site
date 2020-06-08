@@ -1,6 +1,5 @@
 import React from 'react';
 import { Button } from 'semantic-ui-react';
-import tri from '../images/tri.png';
 import logo from '../images/logoC.png';
 
 const Portfolio = () => (
@@ -15,9 +14,9 @@ const Portfolio = () => (
       backgroundColor: '#e8ebff',
       marginTop: '0px'
     }}>
-      {/* <img src={tri} style={Style.tri}/> */}
-    <h1>Portfolio</h1>
+    <h1 style={{ color: '#221C35', marginTop: '30px'}}>Portfolio</h1>
       <div style={{ marginTop: '50px'}}>
+        <h2 style={{ color: '#221C35'}}>Color Board is a color scheme organizer/ social media</h2>
         <iframe width="448" 
             height="252" 
             src="https://www.youtube.com/embed/ehe3yUOVh4Y" 
@@ -25,11 +24,10 @@ const Portfolio = () => (
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
             allowfullscreen>
         </iframe>
-        <p>WARNING: Video is loud</p>
-        <p>Color Board is a color scheme organizer/ social media</p>
+        <p style={{ color: '#221C35'}}>WARNING: Video is loud</p>
         <Button color='black'>View Site</Button>
       </div>
-      <h1> Many more in the works!</h1>
+      <h2 style={{marginTop: '100px', color: '#221c35'}}> Many more in the works!</h2>
     </div>
   </>
 )
