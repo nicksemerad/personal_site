@@ -7,14 +7,12 @@ const Portfolio = () => (
   {/* <img src={logo} style={Style.logo}/> */}
     <div style={{
       width: '100%',
-      margin: 'auto',
       textAlign: 'center',
-      padding: '10px',
+      padding: '60px',
       height: '1000px',
       backgroundColor: '#e8ebff',
-      marginTop: '0px'
     }}>
-    <h1 style={{ color: '#221C35', marginTop: '30px'}}>Portfolio</h1>
+    <h1 style={{ color: '#221C35'}}>Portfolio</h1>
       <div style={{ marginTop: '50px'}}>
         <h2 style={{ color: '#221C35'}}>Color Board is a color scheme organizer/ social media</h2>
         <iframe width="448" 

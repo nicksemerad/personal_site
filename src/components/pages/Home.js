@@ -14,26 +14,27 @@ const Home = () => (
     width: '100%',
     margin: 'auto',
     marginBottom: '0px',
-    textAlign: 'center',
-    height: '1000px',
-    padding: '10px',
+    
+    height: '1100px',
+    padding: '60px',
     backgroundColor: '#e8ebff',
-    marginTop: '20px'
+   
   }}>
     {/* <img src={tri} style={Style.tri}/> */}
-    
+    <div style={{textAlign: 'center'}}>
+
     <h1 style={{color: '#221C35'}}>Nick Semerad</h1>
     <h2 style={{color: '#515051', marginTop: '100px'}}>About me</h2>
-    <h4 style={{color: '#221C35', maxWidth: '50rem'}}>Hi I'm Nick! I'm a web developer and artist,
-       but I like to think that they can be the same thing.
-       I am twenty years old, currently located in Salt Lake City,
-       Utah. I love to create, and I'm setting my summer goal to 
-       learn and create my first neural net!
-       </h4>
     <img 
     width='400px'
     src={ppic} 
     alt='Profile Pic'/>
+    <h3 style={{color: '#221C35'}}>Hi I'm Nick! I'm a web developer and artist,
+       but I like to think that they can be the same thing.
+       I am twenty years old, currently located in Salt Lake City,
+       Utah. I love to create, and I'm setting my summer goal to 
+       learn and create my first neural net!
+       </h3>
     <h3 style={{color: '#221C35'}}>I've decided to keep this site to showcase my work</h3>
     <h1 style={{color: '#221C35'}}>Enjoy :)</h1>
     <div style={{marginTop: '50px'}}>
@@ -56,6 +57,7 @@ const Home = () => (
     </div>
   </div>
   </div>
+    </div>
 )
 
 

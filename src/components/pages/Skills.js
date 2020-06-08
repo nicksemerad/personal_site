@@ -9,99 +9,59 @@ import ai from '../images/skills/ai.png';
 const Skills = () => (
   <div style={{
     width: '100%',
-    margin: 'auto',
     textAlign: 'center',
-    height: '1000px',
-    padding: '10px',
+    height: '1500px',
+    padding: '60px',
     backgroundColor: '#e8ebff',
   }}>
-  <h1 style={{ color: '#221C35', marginTop: '30px'}}>Technical Skills</h1>
-    <div style={{
-      // backgroundColor: 'rgba(0,0,0,0.05)',
-      width: '670px',
-      textAlign: 'center',
-      height: '600px',
-    }}>
-      <div>
-        <img  style={style.reactLogo} src={react} alt='React JS'/>
-        <h2 style={style.reactText}>React JS - front end</h2>
+  <h1 style={{ color: '#221C35'}}>Technical Skills</h1>
+
+    
+      <div style={{marginTop: '50px'}}>
+        <h2>React JS - front end</h2>
+        <img style={style.small} src={react} alt='React JS'/>
+        <h4 style={{}}>React JS, developed by Facebook Engineer Jordan Walke, is the language I use the most.
+          Being my most familiar language, it is what I am most comfortable with.
+           I believe the syntax to be logical and simple to use, although others may disagree. 
+           Having many other advantages, my frontend has never looked better with React JS.</h4>
       </div>
-      <div>
-        <img  style={style.rubyLogo} src={ruby} alt='Ruby'/>
-        <h2 style={style.rubyText}>Ruby/ Rails - back end</h2>
+      <div style={{marginTop: '50px'}}>
+        <h2>Ruby/ Rails - back end</h2>
+        <img style={style.small} src={ruby} alt='Ruby'/>
+        <h4>Ruby on Rails, or ROR, is the language I use to handle my website's backend.
+          ROR makes the models and controllers in an easily customizable way.
+          When used in conjunction with React JS,   </h4>
       </div>
-      <div>
-        <img  style={style.postgresLogo} src={postgres} alt='PostgreSQL'/>
-        <h2 style={style.postgresText}>PostgreSQL - database</h2>
+      <div style={{marginTop: '50px'}}>
+        <h2>PostgreSQL - database</h2>
+        <img style={style.small} src={postgres} alt='PostgreSQL'/>
+        <h4></h4>
       </div>
-      <div>
-        <img  style={style.htmlcssLogo} src={htmlcss} alt='html/css'/>
-        <h2 style={style.htmlcssText}>CSS/ HTML - foundations</h2>
+      <div style={{marginTop: '50px'}}>
+        <h2>CSS/ HTML - foundations</h2>
+        <img style={style.small} src={htmlcss} alt='html/css'/>
+        <h4></h4>
       </div>
-      <div>
-        <img  style={style.psLogo} src={ps} alt='photoshop'/>
-        <h2 style={style.psText}>Photoshop - image editor</h2>
+      <div style={{marginTop: '50px'}}>
+        <h2 >Photoshop - image editor</h2>
+        <img style={style.small} src={ps} alt='photoshop'/>
+        <h4></h4>
       </div>
-      <div>
-        <img  style={style.aiLogo} src={ai} alt='illustrator'/>
-        <h2 style={style.aiText}>Illustrator - sprite creator</h2>
+      <div style={{marginTop: '50px'}}>
+        <h2 >Illustrator - sprite creator</h2>
+        <img style={style.small} src={ai} alt='illustrator'/>
+        <h4></h4>
       </div>
-    </div>
   
   </div>
 )
 
 
 const style = {
- reactLogo: {
-  height: '100px',
-  transform: 'translate(0%, 10%)'
- },
- reactText: {
-  transform: 'translate(0%, -90%)',
-  color: '#221C35'
- },
- rubyLogo: {
-  height: '75px',
-  transform: 'translate(0%, 10%)'
- },
- rubyText: {
-  transform: 'translate(0%, -50%)',
-  color: '#221C35'
- },
- postgresLogo: {
-  height: '90px',
-  transform: 'translate(0%, 20%)'
- },
- postgresText: {
-  transform: 'translate(0%, -50%)',
-  color: '#221C35'
- },
- htmlcssLogo: {
-  height: '80px',
-  transform: 'translate(290%, -525%)'
- },
- htmlcssText: {
-  transform: 'translate(53%, -1490%)',
-  color: '#221C35'
- },
- psLogo: {
-  height: '75px',
-  transform: 'translate(465%, -555%)'
- },
- psText: {
-  transform: 'translate(55%, -1450%)',
-  color: '#221C35'
- },
- aiLogo: {
-  height: '75px',
-  transform: 'translate(460%, -535%)'
- },
- aiText: {
-  transform: 'translate(56%, -1390%)',
-  color: '#221C35'
- },
-
+small: {
+ align: 'center',
+ width: '60px'
+},
 
 }
 export default Skills;

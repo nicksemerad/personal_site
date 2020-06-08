@@ -8,14 +8,12 @@ import twitter from '../images/contact/twitter.png';
 const Contact = () => (
   <div style={{
     width: '100%',
-    margin: 'auto',
     textAlign: 'center',
     height: '1000px',
-    padding: '10px',
-    backgroundColor: '#e8ebff',
-
+    padding: '60px',
+    backgroundColor: '#e8ebff'
   }}>
-    <h1 style={{marginTop: '30px'}}> Contact Me </h1>
+    <h1 style={{}}> Contact Me </h1>
     <div>
       <img style={style.gitLogo} src={github} alt='github'/>
       <h2 style={style.gitText}> /nicksemerad </h2>
