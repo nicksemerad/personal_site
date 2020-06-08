@@ -10,10 +10,10 @@ const Skills = () => (
   <div style={{
     width: '100%',
     margin: 'auto',
-    textAlign: 'left',
+    textAlign: 'center',
     height: '1000px',
     padding: '10px',
-    backgroundColor: '#fce8ea',
+    backgroundColor: '#e8ebff',
   }}>
   <h1>Technical Skills</h1>
     <div style={{

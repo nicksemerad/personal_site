@@ -5,17 +5,17 @@ import logo from '../images/logoC.png';
 
 const Portfolio = () => (
   <>
-  <img src={logo} style={Style.logo}/>
+  {/* <img src={logo} style={Style.logo}/> */}
     <div style={{
       width: '100%',
       margin: 'auto',
-      textAlign: 'left',
+      textAlign: 'center',
       padding: '10px',
       height: '1000px',
-      backgroundColor: '#fce8ea',
+      backgroundColor: '#e8ebff',
       marginTop: '0px'
     }}>
-      <img src={tri} style={Style.tri}/>
+      {/* <img src={tri} style={Style.tri}/> */}
     <h1>Portfolio</h1>
       <div style={{ marginTop: '50px'}}>
         <iframe width="448" 

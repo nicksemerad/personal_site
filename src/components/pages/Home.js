@@ -8,23 +8,23 @@ import logo from '../images/logoC.png'
 
 const Home = () => (
   <div style={{ width: '100%'}}>
-    <img src={logo} style={Style.logo}/>
+    {/* <img src={logo} style={Style.logo}/> */}
 
   <div style={{
     width: '100%',
     margin: 'auto',
     marginBottom: '0px',
-    textAlign: 'left',
+    textAlign: 'center',
     height: '1000px',
     padding: '10px',
-    backgroundColor: '#fce8ea',
+    backgroundColor: '#e8ebff',
     marginTop: '20px'
   }}>
-    <img src={tri} style={Style.tri}/>
+    {/* <img src={tri} style={Style.tri}/> */}
     
-    <h1 style={{color: '#6D0043'}}>Nick Semerad</h1>
+    <h1 style={{color: '#221C35'}}>Nick Semerad</h1>
     <h2 style={{color: '#515051', marginTop: '100px'}}>About me</h2>
-    <h4 style={{color: '#6D0043', maxWidth: '500px'}}>Hi I'm Nick! I'm a web developer and artist,
+    <h4 style={{color: '#221C35', maxWidth: '50rem'}}>Hi I'm Nick! I'm a web developer and artist,
        but I like to think that they can be the same thing.
        I am twenty years old, currently located in Salt Lake City,
        Utah. I love to create, and I'm setting my summer goal to 
@@ -34,8 +34,8 @@ const Home = () => (
     width='400px'
     src={ppic} 
     alt='Profile Pic'/>
-    <h3 style={{color: '#6D0043'}}>I've decided to keep this site to showcase my work</h3>
-    <h1 style={{color: '#6D0043'}}>Enjoy :)</h1>
+    <h3 style={{color: '#221C35'}}>I've decided to keep this site to showcase my work</h3>
+    <h1 style={{color: '#221C35'}}>Enjoy :)</h1>
     <div style={{marginTop: '50px'}}>
       <Button color='black'>
         <Link to="/portfolio" style={{color:'#FFF'}}>
@@ -57,19 +57,7 @@ const Home = () => (
   </div>
   </div>
 )
-const Style = {
-  white: {
-    color: 'White',
-  },
-  tri: {
-    marginLeft: '10%',
-    transform: 'translate(0%, -20%)'
-  },
-  logo: {
-    marginLeft: '10%',
-    transform: 'translate(20%, 10%)'
-  }
-}
+
 
 export default Home;
 

@@ -12,7 +12,7 @@ const Contact = () => (
     textAlign: 'center',
     height: '1000px',
     padding: '10px',
-    backgroundColor: '#fce8ea',
+    backgroundColor: '#e8ebff',
   }}>
     <h1> Contact Me </h1>
     <div>
