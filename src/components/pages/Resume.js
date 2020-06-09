@@ -36,6 +36,7 @@ const Resume = () => (
             </h3>
         <h1 style={{marginTop: '50px', color: '#2B7A78'}}>Interests</h1>
           <h3>-	Graphic Design, Painting, Clothing Design</h3>
+          <h3>- Marketing, Sales, and Advertisement </h3>
           <h3>-	UX/ UI and how the user interacts with the platform</h3>
           <h3>-	Artificial Intelligence and Neural Networks/ their development</h3>
           <h3>-	Music, photography, climbing, skiing, canyoneering, hiking</h3>

@@ -25,7 +25,7 @@ const Portfolio = () => (
         <p style={{ color: '#221C35'}}>WARNING: Video is loud</p>
         <Button color='black'>View Site</Button>
       </div>
-      <h2 style={{marginTop: '100px', color: '#221c35'}}> Many more in the works!</h2>
+      <h3 style={{marginTop: '100px', color: '#2B7A78'}}>This website was made entirely in React JS</h3>
     </div>
   </>
 )

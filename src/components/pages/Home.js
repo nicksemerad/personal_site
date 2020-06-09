@@ -20,8 +20,8 @@ const Home = () => (
   }}>
     <div style={{textAlign: 'center'}}>
 
-    <h1 style={{color: '#221C35'}}>Nick Semerad</h1>
-    <h2 style={{color: '#2B7A78', marginTop: '100px'}}>About me</h2>
+    <h1 style={{color: '#221C35'}}>Hi, I'm Nick Semerad</h1>
+    <h2 style={{color: '#2B7A78', marginTop: '50px'}}>About me</h2>
     <img 
     width='400px'
     src={ppic} 
@@ -32,7 +32,7 @@ const Home = () => (
        Utah. I love to create, and I'm setting my summer goal to 
        learn and create my first neural net!
        </h3>
-    <h3 style={{color: '#2B7A78'}}>I've decided to keep this site to showcase my work</h3>
+    <h3 style={{color: '#2B7A78'}}>I've decided to use this site to let you get to know a little about me!</h3>
     <h1 style={{color: '#221C35'}}>Enjoy :)</h1>
     <div style={{marginTop: '50px'}}>
       <Button color='black'>
@@ -44,8 +44,8 @@ const Home = () => (
         Skills</Link>
       </Button>
       <Button color='black'>
-        <Link to="/art" style={{color:'#FFF'}}>
-        Art</Link>
+        <Link to="/resume" style={{color:'#FFF'}}>
+        Resume</Link>
       </Button>
       <Button color='black'>
         <Link to="/contact" style={{color:'#FFF'}}>

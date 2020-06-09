@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Menu } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
+import nicksem from '../images/nick.png'
 
 
 class Navbar extends Component {
@@ -17,11 +18,12 @@ class Navbar extends Component {
       }}>
         <Menu ui pointing secondary>
           <Link to='/'>
-            <Menu.Item
+            <img style={{width: '200px'}}src={nicksem} alt='nicksemerad.com' />
+            {/* <Menu.Item
               style={{ color: '#221C35'}}
               name='home'
               active={activeItem === 'home'}
-              onClick={this.handleItemClick}/>
+              onClick={this.handleItemClick}/> */}
           </Link>
           <Menu.Menu position='right'>
             <Link to='/portfolio'>
